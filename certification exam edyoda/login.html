@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>login</title>
+        <style>
+            form{
+                margin: auto; 
+                background-color: white;
+                width: 40%;
+                height: 300px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                box-shadow: 0 2px 4px #a1a1a1;
+                border-radius: 2px;
+            }
+            .inp{
+                width: 300px;
+                height: 30px;
+                border: none;
+                 border-bottom: 2px black solid ;
+            }
+            .inp :active{
+                border: none;
+            }
+            .sub{
+                padding: 15px;
+                width: 300px;
+                background-color: #1fb08e;
+                border-radius: 40px;
+                border: none;
+                color: white;
+                font-weight: bold;
+                font-size: 15px;
+            }
+
+        </style>
+        <link rel="stylesheet" type="text/css" href="page.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+
+        <header>
+            <div class="logo_div" >
+            <img class="logo_img" src="https://edu-web-fundamentals.web.app/static/media/logo.58169365.png" alt="">
+            <p>Kafene</p>
+            
+
+            <div class="bar">
+                <ul>
+                    <li><a href="#">Orders</a></li>
+                    <li><a href="#"> Products</a></li>
+                    <li><a href="#"> Users</a></li>
+                </ul>
+            </div>
+            </div>
+            
+        </header>
+        <br><br><br><br><br><br>
+        <div class="logindiv">
+            
+            <form id="loginForm">
+                <h1>SignUp</h1>
+                <label ></label><br>
+                <input class="inp" type="text" id="username" placeholder=" Enter Username:" name="username"><br>
+                <label ></label><br>
+                <input class="inp" type="password" id="password" placeholder="Enter Password:" name="password"><br><br>
+                <!-- <a style="text-decoration: none; text-align: center;" href="order.html" type="button" class="sub" >Login</a> -->
+                <!-- <button class="sub" onclick="func()">Login</button> -->
+                <input class="sub" type="submit" value="Login">
+            </form>
+            </div>
+    
+           
+            <script src="login.js"></script>
+
+
+        <!-- <div class="form">
+            <div class="border">
+                <h1>login</h1>
+                <div class="login_form">
+                    <h4>username</h4>
+                    <div class="username-input">
+                        <i class="fa-regular fa-user"></i>
+                        <input type="text" placeholder="Type your username" id="username">
+                    </div>
+                    <h4>password</h4>
+                    <div class="password-input">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" id="password" placeholder="Type your password">
+                    </div>
+                    <p>Forgot password</p>
+
+                </div>
+                <button class="login-btn"> LOGIN</button>
+                <div class="alternative-signup">
+                    <p>Not a member?<span>Sign-up</span></p>
+                </div>
+            </div>
+        </div> -->
+    </body>
+</html>

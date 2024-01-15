@@ -1,0 +1,98 @@
+body{
+    margin: 0px;
+    background-color: #F6F7FB;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    
+}
+header{
+    height: 60px;
+    width: 100%;
+    box-shadow: 0 2px 4px #ccc;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    
+}
+.logo_div{
+    display: flex;
+    align-items: center;
+    margin: 0px 60px;
+}
+.logo_img{
+    width: 24px;
+    height: 28px;
+    margin-right: 8px;
+}
+.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+.bar ul{
+    display: flex;
+    
+}
+.bar ul li{
+    list-style-type: none;
+    padding: 0px 20px;
+}
+.bar ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+
+}
+ .bar ul li a:active{
+    color: green;
+}
+#logout_btn{
+    margin: 0px 60px;
+    background-color: #fff;
+    border: 0px;
+    font-size: 14px;
+}
+main{
+    margin: 110px;
+}
+.main_section{
+     display: flex;
+}
+.check_box_div{
+    width: 10%;
+    background-color: #F6F7FB;
+}
+.check_box_div input{
+    margin: 10px;
+}
+.table_div{
+    background-color: white;
+    width: 90%;
+     
+}
+
+
+table {
+    border-spacing: 0px 5px;
+    margin-top: 0px;
+    background-color: #F6F7FB;
+}
+
+table th{
+    background-color: #F6F7FB;
+    padding: 12px;
+    font-weight: bold;
+}
+table td{
+    padding: 12px;
+    background-color: white;
+}
+.id{
+    color: grey;
+}
+
